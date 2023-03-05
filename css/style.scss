@@ -1,0 +1,49 @@
+$dark-blue: hsl(218, 44%, 22%);
+$grayish-blue: hsl(220, 15%, 55%);
+$light-gray: hsl(212, 45%, 89%);
+$white: hsl(0, 0%, 100%);
+
+body {
+    font-family: "Outfit", "Arial";
+    background-color: $light-gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardContainer {
+    background-color: $white;
+    width: 320px;
+    padding: 15px 0px 0px 0px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 1000px $grayish-blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.qrImage {
+    width: 290px;
+    height: 290px;
+    border-radius: 8px;
+}
+
+.headingInfo {
+    font-size: 22px;
+    text-align: center;
+    padding: 29px 26px 16px 26px;
+    margin: 0;
+}
+
+.textInfo {
+    font-size: 15px;
+    text-align: center;
+    color: $dark-blue;
+    padding: 0px 35px 35px 35px;
+    margin: 0;
+}
+
+.attribution { font-size: 11px; text-align: center; padding-top: 10px;}
+.attribution a { color: hsl(228, 45%, 44%); }
